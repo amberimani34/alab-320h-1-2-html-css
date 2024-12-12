@@ -1,0 +1,90 @@
+html {
+    border-left: 5px solid lightgray;
+}
+
+body {
+    min-height: 100vh;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header, main, footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+h1 {
+    color: tomato;
+    font-size: 70px;
+    font-weight: lighter;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+}
+
+.top {
+    display: flexbox;
+    justify-content: space-between;
+}
+
+.bottom {
+    display: flexbox;
+    justify-content: space-between;
+}
+
+.top a {
+    color: lightgray;
+}
+
+.bottom a {
+    color: tomato;
+    text-decoration: none;
+}
+
+.datetime {
+    font-size: 30px;
+    color: lightgray;
+    
+}
+
+.title {
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.continue {
+    display: flex;
+    font-weight: bold;
+    text-decoration: none;
+    color: tomato;
+    justify-content: end;
+}
+
+article {
+    margin-bottom: 4rem;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 2rem;
+}
+
+p {
+    color: lightgray;
+}
+
+.article::first-letter {
+    color: lightgray;
+    font-size: 325%;
+    padding: 6px 3px;
+    margin-right: 6px;
+    float: left;
+}
